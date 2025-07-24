@@ -29,7 +29,7 @@ const sessions = [
     output: (
       <>
         <div className="mb-2">
-          I'm <span className="font-bold text-cyan-400">Full Stack Dev</span> <span className="animate-wave inline-block">🤖</span>
+          I&apos;m <span className="font-bold text-cyan-400">Full Stack Dev</span> <span className="animate-wave inline-block">🤖</span>
         </div>
         <div className="mb-2">
           Coding since <span className="text-blue-300 font-bold">2016</span>.

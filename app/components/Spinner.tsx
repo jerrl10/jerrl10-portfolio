@@ -32,7 +32,7 @@ function pickRandom<T>(arr: T[]) {
 }
 
 function getEmojiForOption(opt: string, idx: number) {
-  let hash = opt.split('').reduce((acc, c) => acc + c.charCodeAt(0), idx);
+  const hash = opt.split('').reduce((acc, c) => acc + c.charCodeAt(0), idx);
   return FOOD_EMOJIS[hash % FOOD_EMOJIS.length];
 }
 
